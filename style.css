@@ -1,0 +1,33 @@
+*{
+    background-color:rgb(62, 61, 61) ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+#log,#state{
+    width: 400px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(193, 222, 222);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    margin-block: 20px;
+}
+button{
+    font-size: 20px;
+    padding:10px 20px ;
+    margin-top: 15px;
+    margin-right:20px ;
+    background-color: white;
+}
